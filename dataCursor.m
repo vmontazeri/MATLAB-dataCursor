@@ -46,7 +46,7 @@ function dataCursor(handle, data, columns, dataTipInfo, callBack)
 % See the file 'example.m' for more examples.
 % Vahid Montazeri, 10/7/2018
 
-if( nargin<5 )
+if( nargin == 4 )
     callBack = '';
 end
 
