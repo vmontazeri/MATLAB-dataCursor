@@ -1,12 +1,12 @@
 ## dataCursor
 
-#### function dataCursor(handle, data, columns, dataTipInfo, callBack)
-
  Function to customize the behavior of data cursors in MATLAB
  figures. This function should be used in conjunction
  with one of MATLAB plotting commands (plot, stem, scatter, etc.)
 
 #### How to use:
+#### function dataCursor(handle, data, columns, dataTipInfo, callBack)
+
    The first argument is the handle to the figure.
  
    The second argument is the data that is being plotted.
