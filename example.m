@@ -1,6 +1,8 @@
 % Example usage of the dataCursor function. 
 % The following data is a subset of the Hillenbrand 
 % data set. http://homepages.wmich.edu/~hillenbr/voweldata.html
+% Make sure to have this file, 'vowdata.txt', and the folder 'stimuli' in the same 
+% directory. 
 
 %% Example 1:
 
