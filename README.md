@@ -5,7 +5,7 @@
  with one of MATLAB plotting commands (plot, stem, scatter, etc.)
 
 #### How to use:
-#### function dataCursor(handle, data, columns, dataTipInfo, callBack)
+#### dataCursor(handle, data, columns, dataTipInfo, callBack);
 
    The first argument is the handle to the figure.
  
