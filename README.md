@@ -4,7 +4,7 @@
  figures. This function should be used in conjunction
  with one of MATLAB plotting commands (plot, stem, scatter, etc.)
 
- How to use:
+#### How to use:
    The first argument is the handle to the figure.
  
    The second argument is the data that is being plotted.
@@ -22,7 +22,7 @@
    'selected_point'. This variable is updated each time a 
    data-point is clicked.
 
- Example 1: 
+#### Example 1: 
    In this example columns col1and col2 are plotted. In this 
    case, the data tip shows additional columns col3, col4, 
    and col5: 
@@ -30,7 +30,7 @@
    plot( data.col1, data.col2, '.', 'MarkerSize', 10 )
    dataCursor(fig_handle, data, {'col1'; 'col2'}, {'col3'; 'col4'; 'col5'});
  
- Example 2: 
+#### Example 2: 
    In this example columns col1and col2 are plotted. In this
    case, the data tip shows additional columns col3, col4,
    and col5. In addition the callback defined in the fifth argument
