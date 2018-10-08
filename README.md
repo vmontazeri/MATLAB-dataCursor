@@ -42,9 +42,9 @@
    function and stores the index of the clicked point in the data table. 
    
    fig_handle = figure;\n
-   plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
+   *plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
    dataCursor(fig_handle, data, {'col1'; 'col2'}, ...
    {'col3'; 'col4'; 'col5'}, 'data(selected_point,:)');
  
 #### See the file 'example.m' for more examples.
-#### Vahid Montazeri, 10/7/2018 :)
+#### Vahid Montazeri, 10/7/2018 :simple_smile:
