@@ -29,7 +29,9 @@
    case, the data tip shows additional columns col3, col4, 
    and col5: 
    fig_handle = figure;
+   
    plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
+   
    dataCursor(fig_handle, data, {'col1'; 'col2'}, {'col3'; 'col4'; 'col5'});
  
 #### Example 2: 
@@ -42,10 +44,13 @@
    function and stores the index of the clicked point in the data table. 
    
    fig_handle = figure;
+   
    plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
+   
    dataCursor(fig_handle, data, {'col1'; 'col2'}, ...
    {'col3'; 'col4'; 'col5'}, 'data(selected_point,:)');
  
 #### See the file 'example.m' for more examples.
 #### Vahid Montazeri, 10/7/2018
 :simple_smile:
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
