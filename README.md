@@ -52,5 +52,4 @@
  
 #### See the file 'example.m' for more examples.
 #### Vahid Montazeri, 10/7/2018
-:smiley:
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+:simple_smile:
