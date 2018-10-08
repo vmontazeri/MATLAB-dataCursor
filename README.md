@@ -18,7 +18,7 @@
    desired to be displayed on the data tip.
 
    The fifth argument (optional) specifics any other call back 
-   function needs to be executed when a point on the plot is 
+   function that needs to be executed when a point on the plot is 
    clicked on. 
    The index of the clicked point is stored in a variable called 
    'selected_point'. This variable is updated each time a 
@@ -29,7 +29,7 @@
    case, the data tip shows additional columns col3, col4, 
    and col5: 
    fig_handle = figure;
-   plot( data.col1, data.col2, '.', 'MarkerSize', 10 )
+   plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
    dataCursor(fig_handle, data, {'col1'; 'col2'}, {'col3'; 'col4'; 'col5'});
  
 #### Example 2: 
@@ -39,12 +39,12 @@
    prints the row corresponding to the clicked point in the command
    window. 
    Note that the variable 'selected_point' is defined by the data cursor
-   function and stores theindex of the clicked point in the data table. 
+   function and stores the index of the clicked point in the data table. 
    
-   fig_handle = figure;
-   plot( data.col1, data.col2, '.', 'MarkerSize', 10 )
+   fig_handle = figure;\n
+   plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
    dataCursor(fig_handle, data, {'col1'; 'col2'}, ...
    {'col3'; 'col4'; 'col5'}, 'data(selected_point,:)');
  
 #### See the file 'example.m' for more examples.
-#### Vahid Montazeri, 10/7/2018
+#### Vahid Montazeri, 10/7/2018 :)
