@@ -28,6 +28,7 @@
    In this example columns col1and col2 are plotted. In this 
    case, the data tip shows additional columns col3, col4, 
    and col5: 
+   
    fig_handle = figure;
    
    plot( data.col1, data.col2, '.', 'MarkerSize', 10 );
